@@ -1,0 +1,204 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>index</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<style type="text/css">
+	*, ::after, ::before{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	}
+	a{
+		text-decoration: none;
+		color: inherit;
+	}
+	body{
+		height: 100vh;
+		max-height: 100vh;
+		font-family: "Montserrat", sans-serif;
+		
+	}
+	header > nav{
+		display: flex;
+		justify-content: space-evenly;
+		align-items: center;
+	}
+	header{
+		background-color: #f2f2f2;
+		justify-content: center;
+		align-items: center;
+	}
+	.icon img, .icon{
+		width: 35px;
+		height: 35px;
+	}
+	a.icon{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	a.nav{
+		border-radius: 15px 15px 0 0;
+		padding: 12px 35px;
+		font-weight: 800;
+	}
+	a.nav.active{
+		background-color: #EE6911;
+	}
+	a.nav.inactive{
+		background-color: #F49F66;
+		color: #696969;
+	}
+	a.nav.logo{
+		background-color: #16B5C3;
+		border-radius: 5px;
+	}
+	main{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		height: 100%;
+		background: 
+			linear-gradient(to bottom,
+			#EE6911 0%,
+			#F4D366 100%
+			);
+		padding-top: 25px;
+	}
+	footer{
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		background-color: #000;
+		color: #16B5C3;
+		height: 80px;
+	}
+	footer p, footer h3{
+		font-weight: 600;
+	}
+	footer > div{
+		display: flex;
+		gap: 25px;
+	}
+	.galeria-section-carusel{
+		display: flex;
+	}
+	.galeria-section-carusel > img{
+		height: 170px;
+	}
+	.main-section{
+		display: grid;
+		grid-template-columns: repeat(3,1fr);
+		align-items: center;
+		height: 100%;
+		gap: 30px;
+		padding: 0 20px;
+	}
+	.container-1{
+		background-color: #dadada;
+		font-weight: 500;
+		padding: 25px;
+		font-size: 18px;
+		border-radius: 15px;
+		
+	}
+	.btn.solid{
+		background-color: #16B5C3;
+		color: #fff;
+		padding: 15px 25px;
+		border-radius: 5px;
+		font-weight: 700;
+	}
+	.box-main{
+		display: flex;
+		gap: 25px;
+		flex-direction: column;
+		align-items: center;
+	}
+	.titulo{
+		width: 100vw;
+		display: flex;
+		justify-content: flex-start;
+		text-align: left;
+		margin: 15px 15px;
+		padding: 25px;
+	}
+</style>
+</head>
+
+<body>
+	<header>
+		<nav>
+			<a class="nav inactive" href="index.html">Inicio</a>
+		  <a class="nav active" href="conocenos.html">Conocenos</a>
+		  <a class="nav inactive" href="contacto.html">Contacto</a>
+		  <a class="nav inactive" href="galeria.html">Galería</a>
+		  <a class="nav inactive" href="servicio.html">Servicio</a>
+			<a class="nav inactive" href="preguntas.html">Preguntas Frecuentes</a>
+		  <a href="index.html" class="icon nav logo"><img src="colorfull-camera-lens-icon-free-vector-removebg-preview.png"></a>
+		</nav>
+	</header>
+	
+<main>
+		<div class="galeria-section-carusel">
+			<img src="6356af310f5b551569d8f19c_inicio.jpg">
+			<img src="fotografo_de_familias_en_izcalli.jpg">
+			<img src="hq720.jpg">
+			<img src="images (1).jpg">
+			<img src="images.jpg">
+			<img src="images (3).jpg">
+			<img src="premium_photo-1664475041816-1efbb77b12ec.jpg">
+			<img src="sesion-en-estudio_0003-802x600.jpg">
+		</div>
+    <div class="titulo">
+        <h1>Life Cinematography</h1>
+  	</div>
+    <div class="main-section">
+		<div class="box-main">
+			<div class="valores-title">
+				<h2>Historia</h2>
+			</div>
+		  <div class="container-1">
+				<p>Estudio de fotografia profesional en Puerto Vallarta</p><br>
+				<p>Conoce nuestros servicios proporcionados, además de nuestra historia y visión.</p>
+			</div>
+		</div>
+		<div class="box-main">
+			<div class="valores-title">
+				<h2>Visión</h2>
+			</div>
+			<div class="container-1">
+				<p>Estudio de fotografia profesional en Puerto Vallarta</p><br>
+				<p>Conoce nuestros servicios proporcionados, además de nuestra historia y visión.</p>
+			</div>
+		</div>
+		<div class="box-main">
+			<div class="valores-title">
+				<h2>Misión</h2>
+			</div>
+			<div class="container-1">
+				<p>Estudio de fotografia profesional en Puerto Vallarta</p><br>
+				<p>Conoce nuestros servicios proporcionados, además de nuestra historia y visión.</p>
+			</div>
+		</div>
+  </div>
+  </main>
+	
+	<footer>
+		<h3>Teléfono: +52 322 166 4550</h3>
+		
+		<div>
+			<a href="" class="icon"><img src="2062095_application_chat_communication_logo_whatsapp_icon.svg.png"></a>
+			<a href=""><img class="icon" src="google-mail-gmail-icon-logo-symbol-free-png_1.png"></a> 
+			<a href="https://www.instagram.com/lifecinematographymx?igsh=MWcybGEweGU5eHZvcg==" target="_blank"><img class="icon" src="Instagram_icon.png_1.png"></a> 
+			<a href="https://www.facebook.com/share/1BestAs1YC/" target="_blank"><img src="2021_Facebook_icon.svg.png" class="icon"></a>
+		</div>
+		
+		<p>Ubicación: Calle 20 de noviembre #186 Pitillal Centrol, tercer piso.</p>
+		 </footer>
+</body>
+</html>

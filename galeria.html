@@ -1,0 +1,218 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>index</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<style type="text/css">
+	*, ::after, ::before{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	}
+	a{
+		text-decoration: none;
+		color: inherit;
+	}
+	body{
+		height: fit-content;
+
+		font-family: "Montserrat", sans-serif;
+		
+	}
+	header > nav{
+		display: flex;
+		justify-content: space-evenly;
+		align-items: center;
+	}
+	header{
+		background-color: #f2f2f2;
+		justify-content: center;
+		align-items: center;
+	}
+	.icon img, .icon{
+		width: 35px;
+		height: 35px;
+	}
+	a.icon{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	a.nav{
+		border-radius: 15px 15px 0 0;
+		padding: 12px 35px;
+		font-weight: 800;
+	}
+	a.nav.active{
+		background-color: #EE6911;
+	}
+	a.nav.inactive{
+		background-color: #F49F66;
+		color: #696969;
+	}
+	a.nav.logo{
+		background-color: #16B5C3;
+		border-radius: 5px;
+	}
+	main{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		height: 100%;
+		background: 
+			linear-gradient(to bottom,
+			#EE6911 0%,
+			#F4D366 100%
+			);
+		padding-top: 25px;
+	}
+	footer{
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		background-color: #000;
+		color: #16B5C3;
+		height: 80px;
+	}
+	footer p, footer h3{
+		font-weight: 600;
+	}
+	footer > div{
+		display: flex;
+		gap: 25px;
+	}
+	.galeria-section-carusel{
+		display: flex;
+	}
+	.galeria-section-carusel > img{
+		height: 170px;
+	}
+	.main-section{
+		display: grid;
+		align-items: center;
+		height: 100%;
+		gap: 30px;
+		padding: 0 20px;
+	}
+	.container-1{
+		background-color: #dadada;
+		font-weight: 500;
+		padding: 25px;
+		font-size: 18px;
+		border-radius: 15px;
+		
+	}
+	.btn.solid{
+		background-color: #16B5C3;
+		color: #fff;
+		padding: 15px 25px;
+		border-radius: 5px;
+		font-weight: 700;
+	}
+	.box-main{
+		display: flex;
+		gap: 25px;
+		flex-direction: column;
+		align-items: center;
+	}
+	.bento-gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 180px;
+    gap: 16px;
+    padding: 20px;
+}
+
+.bento-item {
+    background: #ffffff;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    transition: transform 0.25s;
+}
+
+.bento-item:hover {
+    transform: scale(1.03);
+}
+
+.bento-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Tamaños Bento */
+.large {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.wide {
+    grid-column: span 2;
+}
+
+.tall {
+    grid-row: span 2;
+}
+
+</style>
+</head>
+
+<body>
+	<header>
+		<nav>
+			<a class="nav inactive" href="index.html">Inicio</a>
+		  <a class="nav inactive" href="conocenos.html">Conocenos</a>
+		  <a class="nav inactive" href="contacto.html">Contacto</a>
+		  <a class="nav active" href="galeria.html">Galería</a>
+		  <a class="nav inactive" href="servicio.html">Servicio</a>
+			<a class="nav inactive" href="preguntas.html">Preguntas Frecuentes</a>
+		  <a href="index.html" class="icon nav logo"><img src="colorfull-camera-lens-icon-free-vector-removebg-preview.png"></a>
+		</nav>
+	</header>
+	
+<main>
+		<div class="galeria-section-carusel">
+			<img src="6356af310f5b551569d8f19c_inicio.jpg">
+			<img src="fotografo_de_familias_en_izcalli.jpg">
+			<img src="hq720.jpg">
+			<img src="images (1).jpg">
+			<img src="images.jpg">
+			<img src="images (3).jpg">
+			<img src="premium_photo-1664475041816-1efbb77b12ec.jpg">
+			<img src="sesion-en-estudio_0003-802x600.jpg">
+		</div>
+    <div class="main-section">
+		<div class="bento-gallery">
+    <div class="bento-item large"><img src="6356af310f5b551569d8f19c_inicio.jpg"></div>
+    <div class="bento-item tall"><img src="5d3979137e26e6d03aafef6a060311f5.jpg"></div>
+    <div class="bento-item"><img src="fotografo_de_familias_en_izcalli.jpg"></div>
+    <div class="bento-item wide"><img src="hq720.jpg"></div>
+    <div class="bento-item"><img src="images (1).jpg"></div>
+    <div class="bento-item large"><img src="169591-infinito_estudio_mera-amber_heard-aquaman-mera-rey_nereo-550x310.jpg"></div>
+    <div class="bento-item"><img src="sesion-en-estudio_0003-802x600.jpg"></div>
+    <div class="bento-item tall"><img src="images (2).jpg"></div>
+    <div class="bento-item"><img src="images (6).jpg"></div>
+    <div class="bento-item wide"><img src="pexels-pripicart-516927.jpg"></div>
+</div>
+
+  </div>
+  </main>
+	
+	<footer>
+		<h3>Teléfono: +52 322 166 4550</h3>
+		
+		<div>
+			<a href="" class="icon"><img src="2062095_application_chat_communication_logo_whatsapp_icon.svg.png"></a>
+			<a href=""><img class="icon" src="google-mail-gmail-icon-logo-symbol-free-png_1.png"></a> 
+			<a href="https://www.instagram.com/lifecinematographymx?igsh=MWcybGEweGU5eHZvcg==" target="_blank"><img class="icon" src="Instagram_icon.png_1.png"></a> 
+			<a href="https://www.facebook.com/share/1BestAs1YC/" target="_blank"><img src="2021_Facebook_icon.svg.png" class="icon"></a>
+		</div>
+		
+		<p>Ubicación: Calle 20 de noviembre #186 Pitillal Centrol, tercer piso.</p>
+		 </footer>
+</body>
+</html>
